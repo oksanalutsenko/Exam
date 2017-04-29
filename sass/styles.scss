@@ -10,6 +10,8 @@
 
 body {
 	color: #fff;
+	position: relative;
+	min-width: 270px;
 }
 
 a {
@@ -19,7 +21,7 @@ a {
 }
 
 #header {
-	background: url(../img/main_bg.jpg) no-repeat;
+	
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -362,7 +364,7 @@ a {
 		}
 		button {
 			position: absolute;
-			bottom: -57px;
+			bottom: -27px;
 			left: 55px;
 		}
 	}
@@ -470,8 +472,8 @@ a {
 		}
 		button {
 			position: absolute;
-			bottom: -7px;
-			left: 105px;
+			bottom: 7px;
+			left: 75px;
 		}
 	}
 	#start {
@@ -654,10 +656,9 @@ a {
 @media (min-width: 769px) and (max-width: 992px) {
 
 	#header {
-		}
 		.main_link {
 			font-size: 40px !important;
-			margin-top: 15px
+			margin-top: 15px;
 		}
 		a:hover {
 		color: #b4e6f7;
@@ -702,7 +703,7 @@ a {
 		height : 568px;
 		h3 {
 			margin-top: 45px;
-			font-size: 38px
+			font-size: 38px;
 		}
 		h4 {
 			margin-top: 50px;
@@ -740,23 +741,6 @@ a {
 			margin-left: 90px;
 			width: 60%;
 		}
-	}
-	#footer-bottom {
-		p {
-			font-size: 16px;
-			margin-top: 15px;
-		}
-		a {
-			font-size: 13px;
-			padding-right: 5px;
-		}
-		.list {
-			margin-bottom: 10px;
-			padding-left: 0;
-			a {
-				font-size: 16px;
-			}
-		}
 	}	
 }
 
@@ -766,7 +750,7 @@ a {
 		
 		.main_link {
 			font-size: 40px !important;
-			margin-top: 15px
+			margin-top: 15px;
 		}
 		a:hover {
 		color: #b4e6f7;
@@ -791,7 +775,7 @@ a {
 		button {
 			position: absolute;
 			bottom: -40px;
-			right: -100px;
+			left: 290px;
 		}
 	}
 	#start {
@@ -799,7 +783,7 @@ a {
 			margin-top: 50px;
 		}
 		p {
-			font-size: 18px;
+			font-size: 22px;
 			text-align: center;
 		}
 		img {
@@ -808,7 +792,7 @@ a {
 		}
 	}
 	#works {
-		height : 689px !important;
+		height : 742px;
 		h3 {
 			margin-top: 46px;
 			font-size: 38px
@@ -818,10 +802,11 @@ a {
 			font-size: 38px;
 		}
 		.codrops {
-			margin-left: -45px !important;
-			margin-bottom: 50px;
+		    margin-bottom: 18px;
+		    margin-left: 12px !important
 		}
 	}
+		
 	#prices {
 		.clmn {
 			width: 30%;
@@ -839,15 +824,22 @@ a {
 		.button a {
 			width: 100%;
 		}
+		.questions {
+		    color: #98a0a5;
+		    font-family: Lato Regular;
+		    font-size: 22px;
+		    margin-bottom: 80px;
+		    text-align: center;
+		}
 	}
 	#footer-top {
 		.social {
-			margin-left: 205px;
+			margin-left: 22px;
 			margin-bottom: -30px;
 		}
 		input {
-			margin-left: 90px;
-			width: 60%;
+			margin-left: 10px;
+			width: 100%;
 		}
 	}
 	#footer-bottom {
@@ -865,6 +857,139 @@ a {
 			a {
 				font-size: 16px;
 			}
+		}
+		ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-top: 18px;
+		}
+	}	
+}
+
+@media (min-width: 1201px) and (max-width: 1900px) {
+
+	#header {
+		
+		.main_link {
+			font-size: 49px;
+			margin-top: 15px;
+		}
+		ul li a {
+			font-size: 32px;
+		}
+		a:hover {
+		color: #b4e6f7;
+		}
+		#header ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-right: 0;
+		    margin-top: 10px;
+		}
+		#drop a {
+			text-align: left;
+		}
+		h2 {
+			font-size: 47px;
+			margin-top: 100px;
+		}
+		p {
+			font-size: 38px;
+			margin-bottom: 70px;
+		}
+		button {
+			position: absolute;
+			bottom: -40px;
+			left: 290px;
+		}
+	}
+	#start {
+		h2 {
+			margin-top: 50px;
+			font-size: 45px;
+		}
+		p {
+			font-size: 28px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		img {
+			margin-left: 11px;
+			margin-top: -5px;
+			margin-bottom: 50px;
+		}
+	}
+	#works {
+		height : 717px;
+		h3 {
+			margin-top: 46px;
+			font-size: 38px
+		}
+		h4 {
+			margin-top: 50px;
+			font-size: 38px;
+		}
+		.codrops {
+		    margin-bottom: 18px;
+		    margin-left: 12px !important
+		}
+	}
+		
+	#prices {
+		.clmn {
+			width: 30%;
+			margin-left: 20px;
+			#head2 {
+  				margin-top: 15px;
+			}
+		}
+		#head1, #head2, #head3 {
+		    font-size: 22px !important;
+		}
+		span {
+			padding-bottom: 15px;
+		}
+		.button a {
+			width: 100%;
+		}
+		.questions {
+		    color: #98a0a5;
+		    font-family: Lato Regular;
+		    font-size: 22px;
+		    margin-bottom: 80px;
+		    text-align: center;
+		}
+	}
+	#footer-top {
+		.social {
+			margin-left: 22px;
+			margin-bottom: -30px;
+		}
+		input {
+			margin-left: -50px;
+			width: 90%;
+		}
+	}
+	#footer-bottom {
+		p {
+			font-size: 16px;
+			margin-top: 15px;
+		}
+		a {
+			font-size: 13px;
+			padding-right: 5px;
+		}
+		.list {
+			margin-bottom: 10px;
+			padding-left: 0;
+			a {
+				font-size: 16px;
+			}
+		}
+		ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-top: 18px;
 		}
 	}	
 }
