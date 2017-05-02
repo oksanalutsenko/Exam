@@ -21,7 +21,7 @@ a {
 }
 
 #header {
-	
+	background: url("../img/main_bg.jpg") no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -82,7 +82,7 @@ a {
 }
 
 #start {
-	height: 400px;
+	height: 450px;
 	background-color: #fcfcfc;
 	h2 {
 		margin-top: 80px;
@@ -98,8 +98,9 @@ a {
 		text-align: center;
 	}
 	img {
-		margin-top: 65px;
-		margin-bottom: 105px;
+	    margin-bottom: 23px;
+	    margin-left: 68px;
+	    margin-top: -8px;
 	}
 }
 
@@ -223,7 +224,7 @@ a {
 		margin-bottom: 60px;
 	}
 	input {
-		width: 90%;
+		width: 100%;
 		height: 55px;
 		margin-bottom: 20px;
 		background-color: transparent;
@@ -248,11 +249,12 @@ a {
 		height: 105px;
 	}
 	ul li {
-		display: inline-block;
-		list-style-type: none;
-		padding-right: 14px;
-		margin-top: 35px;
-		margin-bottom: 80px;		
+	    display: inline-block;
+	    list-style-type: none;
+	    margin-bottom: 80px;
+	    margin-left: 16px;
+	    margin-top: 35px;
+	    padding-right: 31px;
 	}
 }
 
@@ -374,11 +376,11 @@ a {
 		}
 		p {
 			font-size: 15px;
-			text-align: left;
+			text-align: center;
 		}
 		img {
 			margin-left: 11px;
-			margin-top: 2px;
+			margin-top: 25px;
 		}
 	}
 	#works {
@@ -402,6 +404,26 @@ a {
 		.social {
 			margin-left: 40px;
 			margin-bottom: -30px;
+		}
+		input {
+		    background-color: transparent;
+		    border: 3px solid #fff;
+		    border-radius: 5px;
+		    color: #fff !important;
+		    font-family: Lato Regular;
+		    height: 55px;
+		    margin-bottom: 20px;
+		    margin-left: 27px;
+		    padding: 5px 0 0 20px;
+		    width: 80%;
+		}
+		ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-bottom: 80px;
+		    margin-left: 10px;
+		    margin-top: 35px;
+		    padding-right: 5px;
 		}
 	}
 	#footer-bottom {
@@ -464,7 +486,7 @@ a {
 		}
 		h2 {
 			font-size: 32px;
-			margin-top: 100px;
+			margin-top: 40px;
 		}
 		p {
 			font-size: 28px;
@@ -482,7 +504,7 @@ a {
 		}
 		p {
 			font-size: 17px;
-			text-align: left;
+			text-align: center;
 		}
 		img {
 			margin-left: 11px;
@@ -508,12 +530,29 @@ a {
 	}
 	#footer-top {
 		.social {
-			margin-left: 70px;
+			margin-left: 80px;
 			margin-bottom: -30px;
 		}
 		input {
-			margin-left: 20px;
+		    background-color: transparent;
+		    border: 3px solid #fff;
+		    border-radius: 5px;
+		    color: #fff !important;
+		    font-family: Lato Regular;
+		    height: 55px;
+		    margin-bottom: 20px;
+		    margin-left: 40px;
+		    padding: 5px 0 0 20px;
+		    width: 75%;
 		}
+		ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-bottom: 80px;
+		    margin-left: 3px;
+		    margin-top: 35px;
+		    padding-right: 15px;
+		}    
 	}
 	#footer-bottom {
 		p {
@@ -536,6 +575,7 @@ a {
 
 	#header {
 		position: relative;
+		min-height: 500px;
 		.dropdown {
 		    font-size: 20px;
 		    position: absolute;
@@ -571,11 +611,11 @@ a {
 		    margin-top: 10px;
 		}
 		#drop a {
-			text-align: left;
+			text-align: center;
 		}
 		h2 {
 			font-size: 32px;
-			margin-top: 100px;
+			margin-top: 30px;
 		}
 		p {
 			font-size: 28px;
@@ -589,10 +629,10 @@ a {
 	}
 	#start {
 		h2 {
-			margin-top: 50px;
+			margin-top: 60px;
 		}
 		p {
-			font-size: 18px;
+			font-size: 21px;
 			text-align: center;
 		}
 		img {
@@ -610,9 +650,6 @@ a {
 			margin-top: 50px;
 			font-size: 38px;
 		}
-		img {
-			margin-left: 20px;
-		}
 	}
 	#prices {
 		.clmn {
@@ -628,12 +665,20 @@ a {
 	}
 	#footer-top {
 		.social {
-			margin-left: 160px;
+			margin-left: 130px;
 			margin-bottom: -30px;
 		}
 		input {
-			margin-left: 90px;
-			width: 60%;
+			margin-left: 93px;
+			width: 67%;
+		}
+		ul li {
+		    display: inline-block;
+		    list-style-type: none;
+		    margin-bottom: 80px;
+		    margin-left: 16px;
+		    margin-top: 35px;
+		    padding-right: 38px;
 		}
 	}
 	#footer-bottom {
@@ -695,12 +740,12 @@ a {
 			text-align: center;
 		}
 		img {
-			margin-left: 11px;
+			margin-left: 25px;
 			margin-top: 32px;
 		}
 	}
 	#works {
-		height : 568px;
+		height : 545px;
 		h3 {
 			margin-top: 45px;
 			font-size: 38px;
@@ -734,12 +779,25 @@ a {
 	}
 	#footer-top {
 		.social {
-			margin-left: 205px;
-			margin-bottom: -30px;
+		    margin-bottom: -30px;
+		    margin-left: 210px;
 		}
 		input {
-			margin-left: 90px;
-			width: 60%;
+		    margin-left: 130px;
+		    width: 65%;
+		    margin-left: 111px;
+		}    
+	}
+	#footer-bottom{
+		a {
+		    color: #535a5e;
+		    font-size: 14px;
+		    padding-right: 10px;
+		}
+		p {
+		    font-size: 17px;
+		    margin-bottom: 40px;
+		    margin-top: 60px;
 		}
 	}	
 }
@@ -775,7 +833,7 @@ a {
 		button {
 			position: absolute;
 			bottom: -40px;
-			left: 290px;
+			left: 240px !important;
 		}
 	}
 	#start {
@@ -787,12 +845,12 @@ a {
 			text-align: center;
 		}
 		img {
-			margin-left: 11px;
+			margin-left: -40px;
 			margin-top: 32px;
 		}
 	}
 	#works {
-		height : 742px;
+		height : 690px;
 		h3 {
 			margin-top: 46px;
 			font-size: 38px
@@ -914,13 +972,13 @@ a {
 			margin-bottom: 20px;
 		}
 		img {
-			margin-left: 11px;
-			margin-top: -5px;
-			margin-bottom: 50px;
+		    margin-bottom: 50px;
+		    margin-left: -42px;
+		    margin-top: -5px;
 		}
 	}
 	#works {
-		height : 717px;
+		height : 690px;
 		h3 {
 			margin-top: 46px;
 			font-size: 38px
